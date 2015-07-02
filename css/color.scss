@@ -1,0 +1,76 @@
+$bar-address-background-color : #E3F2FD;
+$bar-address-text-color : #90CAF9;
+
+.browser-window.browser-window-flat .bar {
+  background-color: $bar-address-background-color;
+}
+.browser-window.browser-window-flat .bar .home {
+  color: $bar-address-text-color;
+}
+.browser-window .bar .address .search.link a{
+  color:$bar-address-text-color;
+}
+.browser-window .bar .menu:before {
+  border-top: 12px double $bar-address-text-color;
+  border-bottom: 4px solid $bar-address-text-color;
+}
+.browser-window .content {
+  border: solid 1px $bar-address-background-color;
+  border-top:0;
+}
+.browser-window.browser-window-flat .bar .address .search {
+  background-color: $bar-address-background-color;
+}
+
+/*
+ * Sketch mockups
+*/
+
+.browser-window.browser-window-sketch .bar {
+  background-color: #fff;
+  border:1px solid $bar-address-text-color;
+}
+.browser-window.browser-window-sketch .bar .home {
+  color: $bar-address-text-color;
+}
+.browser-window.browser-window-sketch .address {
+  border:1px solid $bar-address-text-color;
+}
+.browser-window.browser-window-sketch .bar .menu:before {
+  border-top: 12px double $bar-address-text-color;
+  border-bottom: 4px solid $bar-address-text-color;
+}
+.browser-window.browser-window-sketch .content {
+  border: 1px solid $bar-address-text-color;
+  border-top:0;
+}
+.browser-window.browser-window-sketch .bar .address .search {
+  background-color: $bar-address-text-color;
+}
+
+/*
+ * 2d mockups
+*/
+.browser-window-2d{
+ box-shadow: 2px 2px 4px #ccc;
+ border-left: 1px solid #eaeaea;
+}
+.browser-window-2d .content {
+  border: 0!important;
+}
+.browser-window.browser-window-2d .bar {
+  background-color: $bar-address-background-color;
+}
+.browser-window.browser-window-2d .bar .home {
+  color: $bar-address-text-color;
+}
+.browser-window.browser-window-2d .address {
+  box-shadow:inset 2px 2px 4px $bar-address-text-color;
+}
+.browser-window.browser-window-2d .content {
+  border: 1px solid $bar-address-text-color;
+  border-top:0;
+}
+.browser-window.browser-window-2d .bar .address .search {
+  background-color: $bar-address-text-color;
+}

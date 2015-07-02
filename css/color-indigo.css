@@ -1,0 +1,73 @@
+.browser-window.browser-window-flat .bar {
+  background-color: #E8EAF6;
+}
+.browser-window.browser-window-flat .bar .home {
+  color: #C5CAE9;
+}
+.browser-window .bar .address .search.link a{
+  color:#C5CAE9;
+}
+.browser-window .bar .menu:before {
+  border-top: 12px double #C5CAE9;
+  border-bottom: 4px solid #C5CAE9;
+}
+.browser-window .content {
+  border: solid 1px #E8EAF6;
+  border-top:0;
+}
+.browser-window.browser-window-flat .bar .address .search {
+  background-color: #E8EAF6;
+}
+
+/*
+ * Sketch mockups
+*/
+
+.browser-window.browser-window-sketch .bar {
+  background-color: #fff;
+  border:1px solid #9FA8DA;
+}
+.browser-window.browser-window-sketch .bar .home {
+  color: #9FA8DA;
+}
+.browser-window.browser-window-sketch .address {
+  border:1px solid #9FA8DA;
+}
+.browser-window.browser-window-sketch .bar .menu:before {
+  border-top: 12px double #9FA8DA;
+  border-bottom: 4px solid #9FA8DA;
+}
+.browser-window.browser-window-sketch .content {
+  border: 1px solid #9FA8DA;
+  border-top:0;
+}
+.browser-window.browser-window-sketch .bar .address .search {
+  background-color: #9FA8DA;
+}
+
+/*
+ * 2d mockups
+*/
+.browser-window-2d{
+ box-shadow: 2px 2px 4px #ccc;
+ border-left: 1px solid #eaeaea;
+}
+.browser-window-2d .content {
+  border: 0!important;
+}
+.browser-window.browser-window-2d .bar {
+  background-color: #E8EAF6;
+}
+.browser-window.browser-window-2d .bar .home {
+  color: #9FA8DA;
+}
+.browser-window.browser-window-2d .address {
+  box-shadow:inset 2px 2px 4px #9FA8DA;
+}
+.browser-window.browser-window-2d .content {
+  border: 1px solid #9FA8DA;
+  border-top:0;
+}
+.browser-window.browser-window-2d .bar .address .search {
+  background-color: #9FA8DA;
+}

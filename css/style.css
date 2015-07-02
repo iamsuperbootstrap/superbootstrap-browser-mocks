@@ -1,0 +1,77 @@
+img {
+  width: 100%;
+}
+.navbar{
+  background:#eee;
+}
+.browser-window img {
+  width: 100%;
+}
+.browser-window-round {
+  border-radius:5px;
+}
+.browser-window-round  .bar{
+  border-radius:5px 5px 0 0;
+}
+.browser-window .bar {
+  width: 100%;
+  height: 42px;
+  position: relative;
+}
+.browser-window .bar .home {
+  width: 25px;
+  padding: 10px 7px;
+}
+.browser-window .bar .home:before {
+  content:"\f015";
+  font-family: FontAwesome;
+}
+.browser-window .bar .home a{
+ text-decoration:none;
+}
+.browser-window.browser-window-flat .bar .address {
+  background-color: #fff;
+}
+.browser-window .bar .address {
+  background-color: #fff;
+  height: 26px;
+  top: 8px;
+  width: 87%;
+  width: calc(100% - 65px);
+  position: absolute;
+  margin-left: 25px;
+}
+.browser-window .bar .address .search.link {
+  background-color: transparent!important;
+  overflow:hidden;
+  width: 90%;
+  height: 10px;
+  top: 8px;
+}
+.browser-window .bar .address .search.link a{
+  text-decoration:none;
+}
+.browser-window .bar .address .search {
+  width: 70%;
+  height: 7px;
+  top: 10px;
+  position: absolute;
+  margin-left: 2%;
+  font-size: 10px;
+  line-height: 10px;
+}
+.browser-window .bar .menu:before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.browser-window .content {
+  overflow: hidden;
+  max-height:400px;
+}
+.browser-window-round .content {
+  border-radius: 0 0 5px 5px;
+}

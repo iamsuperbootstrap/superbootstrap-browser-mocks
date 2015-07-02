@@ -1,0 +1,73 @@
+.browser-window.browser-window-flat .bar {
+  background-color: #FFEBEE;
+}
+.browser-window.browser-window-flat .bar .home {
+  color: #EF9A9A;
+}
+.browser-window .bar .address .search.link a{
+  color:#EF9A9A;
+}
+.browser-window .bar .menu:before {
+  border-top: 12px double #EF9A9A;
+  border-bottom: 4px solid #EF9A9A;
+}
+.browser-window .content {
+  border: solid 1px #FFEBEE;
+  border-top:0;
+}
+.browser-window.browser-window-flat .bar .address .search {
+  background-color: #FFEBEE;
+}
+
+/*
+ * Sketch mockups
+*/
+
+.browser-window.browser-window-sketch .bar {
+  background-color: #fff;
+  border:1px solid #EF9A9A;
+}
+.browser-window.browser-window-sketch .bar .home {
+  color: #EF9A9A;
+}
+.browser-window.browser-window-sketch .address {
+  border:1px solid #EF9A9A;
+}
+.browser-window.browser-window-sketch .bar .menu:before {
+  border-top: 12px double #EF9A9A;
+  border-bottom: 4px solid #EF9A9A;
+}
+.browser-window.browser-window-sketch .content {
+  border: 1px solid #EF9A9A;
+  border-top:0;
+}
+.browser-window.browser-window-sketch .bar .address .search {
+  background-color: #EF9A9A;
+}
+
+/*
+ * 2d mockups
+*/
+.browser-window-2d{
+ box-shadow: 2px 2px 4px #ccc;
+ border-left: 1px solid #eaeaea;
+}
+.browser-window-2d .content {
+  border: 0!important;
+}
+.browser-window.browser-window-2d .bar {
+  background-color: #FFEBEE;
+}
+.browser-window.browser-window-2d .bar .home {
+  color: #EF9A9A;
+}
+.browser-window.browser-window-2d .address {
+  box-shadow:inset 2px 2px 4px #EF9A9A;
+}
+.browser-window.browser-window-2d .content {
+  border: 1px solid #EF9A9A;
+  border-top:0;
+}
+.browser-window.browser-window-2d .bar .address .search {
+  background-color: #EF9A9A;
+}
